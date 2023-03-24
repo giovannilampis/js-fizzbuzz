@@ -1,0 +1,16 @@
+body {
+    background-color: wheat;
+}
+
+.box-container {
+    max-width: 50rem;
+    aspect-ratio: 1 /1;
+    margin: 2rem auto;
+    background-color: aquamarine;
+}
+
+.box {
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+    color: whitesmoke;
+}

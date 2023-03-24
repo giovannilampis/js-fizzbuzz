@@ -1,10 +1,12 @@
 "use strict"
 
-let ciao = "ciaociao"
-
-console.log(ciao);
+let boxes = document.querySelector("ul");
 
 for (let i = 1; i <= 100; i++) {
+
+    let box = document.createElement("li");
+
+    boxes.append(box);
     
     // STAMPA "FIZZBUZZ" anzi che i numeri che sono multipli sia di 3 che di 5
     if (i % 15 == 0) {
@@ -23,4 +25,6 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
+
+
 
