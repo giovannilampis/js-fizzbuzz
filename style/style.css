@@ -3,15 +3,16 @@ body {
 }
 
 .box-container {
-    max-width: 50rem;
+    max-width: 60rem;
     aspect-ratio: 1 /1;
     margin: 2rem auto;
     background-color: aquamarine;
 }
 
 .box {
-    width: 2rem;
+    width: 10%;
     aspect-ratio: 1 / 1;
-    color: whitesmoke;
+    color: lightskyblue;
     list-style-type: none;
+    border: 1px dashed whitesmoke;
 }
